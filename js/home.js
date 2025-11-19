@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const grid = document.getElementById("productGrid");
 
     // Load JSON file
-    fetch("../data/product-main.json")
+    fetch("./data/product-main.json")
         .then(response => response.json())
         .then(data => {
 
